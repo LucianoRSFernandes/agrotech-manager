@@ -56,4 +56,4 @@ A estrutura do projeto foi planejada para escalabilidade e fácil integração c
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-Desenvolvido por **Luciano** | University Ambassador & Estudante de Tecnologia na Anhanguera.
+Desenvolvido por **Luciano** | Engenheiro de sofware e estudante de tecnologia.
