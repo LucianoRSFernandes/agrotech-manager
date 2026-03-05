@@ -1,27 +1,59 @@
-# AgrotechManager
+# 🌾 AgroTech Manager - Sistema de Gestão de Fazendas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Development server
+O **AgroTech Manager** é uma aplicação Single Page Application (SPA) desenvolvida para otimizar o gerenciamento de propriedades rurais. O projeto permite o controle completo (CRUD) de fazendas, integrando validações de negócios e consumo de APIs externas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto consolida meus estudos em desenvolvimento Front-end com **Angular 14**, complementando minha trajetória como desenvolvedora Back-end Java.
 
-## Code scaffolding
+## 📸 Demonstração
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Tela de Listagem
+Visualização dinâmica das propriedades consumindo dados de API externa com formatação via Pipes.
+![Listagem de Fazendas](src/assets/screenshots/Listagem.jpg)
 
-## Build
+### Tela de Cadastro
+Formulário robusto com validações reativas para garantir a integridade dos dados rurais.
+![Cadastro de Fazenda](src/assets/screenshots/cadastro.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Funcionalidades
 
-## Running unit tests
+* **Listagem (Read)**: Exibição de fazendas com filtros de cultura e área formatada.
+* **Cadastro (Create)**: Inclusão de novas propriedades via Reactive Forms com validações customizadas.
+* **Exclusão (Delete)**: Remoção de registros com atualização de estado em tempo real.
+* **Integração HTTP**: Comunicação assíncrona com API REST via HttpClient e RxJS.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧱 Arquitetura e Organização
 
-## Running end-to-end tests
+A estrutura do projeto foi planejada para escalabilidade e fácil integração com back-ends em Java/Spring:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* **Models**: Interfaces para contratos de dados rigorosos.
+* **Services**: Centralização da lógica de consumo de dados (HTTP).
+* **Assets**: Organização de recursos estáticos e documentação visual.
 
-## Further help
+## 💻 Como Rodar este Projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1.  Certifique-se de estar usando o Node v18.18.0 (recomendado via NVM).
+2.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/agrotech-manager.git](https://github.com/seu-usuario/agrotech-manager.git)
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+4.  Inicie a aplicação:
+    ```bash
+    ng serve
+    ```
+5.  Acesse `http://localhost:4200` no seu navegador.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+Desenvolvido por **Luciano** | University Ambassador & Estudante de Tecnologia na Anhanguera.
